@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    background-color: crimson
+}
+
+html {
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ======================================================================= */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+}
+
+header .topheader {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+header .topheader .logo {
+    flex: 0.4;
+    line-height: 1.3;
+}
+
+header .topheader .logo h1 {
+    font-family: Josefin Sans;
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+header .topheader .menubar {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .topheader .menubar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .topheader .menubar ul li a {
+    color: black;
+    padding: 5px;
+}
+
+header .topheader .menubar ul li i {
+    color: black;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+header .navbar a {
+    color: black;
+}
+
+header .navbar .btn1 {
+    background-color: gray;
+    color: blue;
+    width: 169px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+header .menubtn {
+    display: none;
+   
+}
+
+header .menubtn button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 22px;
+}
+
+/* ========================================================================== */
+.mainpage .mainp {
+    padding-top: 100px;
+}
+
+.mainpage .container .offer {
+    display: flex;
+    gap: 0px;
+    place-content: center;
+}
+
+.mainpage .container .offer .save {
+    background-color: green;
+    text-align: center;
+    height: 32px;
+    width: 108px;
+    border-radius: 100px;
+    color: white;
+}
+
+.mainpage .container .offer .get {
+    text-align: center;
+    padding-left: 15px;
+    background-color: gray;
+    width: 283px;
+    height: 32px;
+    border-radius: 100px;
+}
+
+.mainpage .container .offer .get i {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.mainpage .title h1 {
+    font-size: calc(2.5rem + 1vw);
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.mainpage .title p {
+    text-align: center;
+}
+
+.mainpage .input {
+    margin-left: 375px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.mainpage .input input[type="text"] {
+    width: 319px;
+    height: 52px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mainpage .input button {
+    width: 164px;
+    height: 52px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #794CFF;
+    color: white;
+    font-size: 20px;
+}
+
+.mainpage .image {
+    margin: auto;
+}
+
+.mainpage .image p {
+    font-size: calc(0.5vw + 16px);
+    padding-left: 300px;
+    padding-bottom: 20px;
+}
+
+.mainpage .symbol {
+    display: flex;
+    gap: 150px;
+    margin-top: 25px;
+}
+
+.mainpage .symbol img {
+    width: 100%;
+}
+
+.mainpage .lastbox img{
+    margin-left: 20px;
+}
+
+
+.mainpage .timeline{
+    display: flex;
+    padding: 20px;
+}
+
+h1{
+    justify-content: center;
+}
+p{
+    justify-content: center;
+}
+.lastparagraph {
+   padding: 20px;
+   padding-left: 40px;
+   gap: 20px;
+   display: grid;
+}
+.para1{
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 1px solid black;
+    background-color: rgb(153, 151, 151);
+}
+.para2{
+    padding-left: 20px;
+    border: 1px solid black;
+    padding-top: 30px;
+    background-color: rgb(153, 151, 151);
+}
+.para3{
+    padding-left: 20px;
+    border: 1px solid black;
+    padding-top: 30px;
+    background-color: rgb(153, 151, 151);
+}
+.para4{
+    padding-left: 20px;
+    border: 1px solid black;
+    padding-top: 30px;
+    background-color: rgb(153, 151, 151);
+}
+/* ========================================================================= */

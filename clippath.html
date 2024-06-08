@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 100%;
+
+            clip-path: polygon(-200% 0, 50% 100%, 300% 0);
+
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .menubar {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menubar ul a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            transition: ease;
+        }
+
+        .menubar ul a:hover {
+            border-bottom: 2px solid red;
+        }
+
+        .menubar ul {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+        }
+        .text {
+            text-align: center;
+            text-transform: capitalize;
+            position: absolute;
+            top: 130px;
+            left: 200px;
+            padding: 20px;
+            color: black
+        }
+        header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 111;
+        }
+
+        .heading {
+            display: flex;
+        }
+
+        .logo {
+            border: 3px solid rgb(255, 255, 255);
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        span {
+            letter-spacing: 15px;
+            background-color: white;
+        }
+        
+        .text{
+            p{
+               margin-top: 10px;
+               line-break: loose;
+            }
+            h4{
+                margin-bottom: 10px;
+                text-size-adjust: 20px;
+            }
+            h1{
+                word-spacing: 2px;
+            }
+        }
+
+        .underline {
+            display: flex;
+            gap: 10px;
+            position: relative;
+        }
+
+        .underline .line1 {
+            position: absolute;
+            color: rgb(17, 4, 4);
+            size: 5px;
+            width:200px;
+            margin-left:300px;
+            margin-top: 3px;
+        }
+
+        .underline .icon {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            color: rgb(17, 16, 16);
+            size: 20px;
+            margin-left: 785px;
+            margin-top: -7px;
+        }
+        .underline .line2 {
+            position: absolute;
+            color: white;
+            size: 5px;
+            width: 245px;
+            margin-left: 500px;
+            margin-top: 3px;
+        }
+        .button {
+            margin-left:10px;
+            margin-top: 270px;
+            margin-right: 100px;   
+        }
+
+        .button .btn1 {
+            height: 35px;
+            width: 140px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid rgba(0, 0, 0, 0);
+            font-size: 15px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        .button .btn2 {
+            height: 35px;
+            width: 140px;
+            background-color: rgba(249, 249, 249, 0);
+            color: black;
+            border-radius: 5px;
+            font-size: 15px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        
+
+        .flexitems {
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: repeat(4 , 1fr);
+            
+            justify-content: center;
+            max-width: 100%;
+            height: 300px;
+        }
+
+        .main1,
+        .main2,
+        .main3,
+        .main4 {
+            position: relative;
+            width: 300px;
+            padding-top: 100px;
+            /* border: 1px solid black; */
+            padding: 115px 90px;
+        }
+
+        .icon1,
+        .icon2,
+        .icon3,
+        .icon4 {
+            /* padding-left: 45px;
+            padding-bottom: 10px; */
+            border: 1px solid red;
+            display: grid;
+            place-items: center;
+            height: 60px;
+            width: 60px;
+            margin: 7px 25px;
+            color: red;
+        }
+
+        .icon1 {
+            transform: rotate(222deg);
+        }
+
+        .fa-glasses {
+            transform: rotate(140deg);
+        }
+
+        .p1,
+        .p2,
+        .p3,
+        .p4 {
+            color: black;
+            width: 300px;
+            /* border: 1px solid black; */
+            padding: 0 1px;
+            margin: 0 -91px;
+            text-align: justify;
+            padding-top: 10px;
+        }
+        h3 {
+            text-transform: capitalize;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" alt="">
+    <header>
+        <div class="heading">
+            <div class="logo">
+                <h1><span>L</span>ogo</h1>
+            </div>
+            <div class="menubar">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">blog</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="text">
+        <h4>our clients our first priority</h4>
+        <h1> Welcome To Sky</h1>
+        <div class="underline">
+            <div class="line1">
+                <hr>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-circle"></i>
+            </div>
+            <div class="line2">
+                <hr>
+            </div>
+        </div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.Fugit nihil natus explicabo officia,
+                voluptatem, nobis illum consequuntur perferendis.
+            </p>
+    
+    <div class="button">
+        <button class="btn1">Get stared now</button>
+        <button class="btn2">learn more</button>
+    </div>
+</div>
+
+</section>
+<section class="flexbar">
+<div class="flexitems">
+    <div class="main1">
+        <div class="icon1">
+            <i class="fa-solid fa-glasses"></i>
+        </div>
+        <div class="text1">
+            <h3 class="redheading">sleek design</h3>
+            <p class="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum distinctio
+                inventore
+                nisi. Odit officia perferendis iste deleniti non? Vitae quidem eligendi facere voluptate
+                dignissimos aut! Ut maxime recusandae voluptates.</p>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="icon2">
+            <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="text2">
+            <h3>clean code</h3>
+            <p class="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum distinctio
+                inventore
+                nisi. Odit
+                officia perferendis iste deleniti non? Vitae quidem eligendi facere voluptate dignissimos
+                aut!
+                Ut maxime
+                recusandae voluptates.</p>
+        </div>
+    </div>
+    <div class="main3">
+        <div class="icon3">
+            <i class="fa-solid fa-lightbulb"></i>
+        </div>
+        <div class="text3">
+            <h3>creative idea</h3>
+            <p class="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum distinctio
+                inventore
+                nisi. Odit
+                officia perferendis iste deleniti non? Vitae quidem eligendi facere voluptate dignissimos
+                aut!
+                Ut maxime
+                recusandae voluptates.</p>
+        </div>
+    </div>
+    <div class="main4">
+        <div class="icon4">
+            <i class="fa-solid fa-message"></i>
+        </div>
+        <div class="text4">
+            <h3>free support</h3>
+            <p class="p4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae illum distinctio
+                inventore
+                nisi. Odit
+                officia perferendis iste deleniti non? Vitae quidem eligendi facere voluptate dignissimos
+                aut!
+                Ut maxime
+                recusandae voluptates.</p>
+        </div>
+    </div>
+</div>
+</section>
+    
+</body>
+
+</html>

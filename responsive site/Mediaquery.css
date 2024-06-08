@@ -1,0 +1,251 @@
+@media (max-width:576px) {
+    header .topheader .menubar {
+        display: none;
+    }
+
+    header .menubtn {
+        display: grid;
+        justify-content: end;
+        width: 100%;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    .mainpage .container .offer .save {
+        display: none;
+    }
+
+    .mainpage .input {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .mainpage .input button {
+        height: 52px;
+        width: 318px;
+    }
+
+    .mainpage .image img {
+        width: 100%;
+    }
+
+    .mainpage .image p {
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .mainpage .symbol {
+        display: flex;
+        gap: 25px;
+        margin-left: 0px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .mainpage .symbol img {
+        height: auto;
+        width: 15%;
+        margin-top: unset;
+    }
+
+    .mainpage .title h1 {
+        width: 100%;
+    }
+}
+
+/* ====================================================================== */
+@media (min-width:576px) {
+    header .topheader .menubar {
+        display: none;
+    }
+
+    header .menubtn {
+        display: grid;
+        justify-content: end;
+        width: 100%;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    .mainpage .container .offer .save {
+        display: none;
+    }
+
+    .mainpage .input {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .mainpage .input button {
+        height: 52px;
+        width: 318px;
+    }
+
+    .mainpage .image img {
+        width: 100%;
+    }
+
+    .mainpage .image p {
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .mainpage .symbol {
+        display: flex;
+        gap: 25px;
+        margin-left: 0px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .mainpage .symbol img {
+        height: auto;
+        width: 15%;
+        margin-top: unset;
+    }
+
+    .mainpage .title h1 {
+        width: 100%;
+    }
+}
+
+/* ====================================================================== */
+@media (min-width:768px) {
+    header .topheader .menubar {
+        display: none;
+    }
+
+    header .menubtn {
+        display: grid;
+        justify-content: end;
+        width: 100%;
+    }
+
+    header .navbar {
+        display: none;
+    }
+
+    .mainpage .container .offer .save {
+        display: unset;
+    }
+
+    .mainpage .input {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 0;
+    }
+
+    .mainpage .input button {
+        width: 164px;
+        height: 52px;
+    }
+
+    .mainpage .image img {
+        width: 100%;
+    }
+
+    .mainpage .image p {
+        text-align: center;
+    }
+
+    .mainpage .symbol {
+        display: flex;
+        gap: 25px;
+    }
+
+    .mainpage .symbol img {
+        height: auto;
+        width: 17%;
+        margin-top: unset;
+    }
+
+    .mainpage .title h1 {
+        width: 100%;
+    }
+}
+
+/* ======================================================================== */
+@media (min-width:992px) {
+    header .topheader .menubar {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    header .menubtn {
+        display: none;
+    }
+
+    header .navbar {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+        padding-right: 10px;
+    }
+
+    .mainpage .container .offer .save {
+        display: unset;
+    }
+
+    .mainpage .input {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        gap: 0;
+    }
+
+    .mainpage .input button {
+        width: 164px;
+        height: 52px;
+    }
+
+    .mainpage .image img {
+        width: 100%;
+    }
+
+    .mainpage .image p {
+        text-align: center;
+    }
+
+    .mainpage .symbol {
+        display: flex;
+        gap: 150px;
+    }
+
+    .mainpage .symbol img {
+        width: 100%;
+    }
+
+    .mainpage .title h1 {
+        width: 100%;
+    }
+    .mainpage .timeline{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ======================================================================= */
+@media (min-width:1200px) {
+    /* Inherit From........ */
+}
+
+/* ======================================================================= */
+@media (min-width:1400px) {
+    /* Inherit From........ */
+}
+
+/* ==================================================================== */

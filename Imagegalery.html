@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .imggallery {
+            display: flex;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .img1 {
+            grid-row: 1;
+            grid-column: 1 / span 3;
+        }
+
+        .img4 {
+            grid-row: 2;
+            grid-column: 2 / span 2;
+        }
+
+
+        .img6 {
+            grid-row: 3;
+            grid-column: 1 / span 2;
+        }
+
+        .img7 {
+            grid-row: 3;
+            grid-column: 3 / span 2;
+        }
+
+        .img10 {
+            grid-row: 4;
+            grid-column: 3 / span 2;
+        }
+
+        .menu {
+            flex: 0.5;
+
+        }
+
+        .menuitem {
+            text-align: right;
+        }
+
+        .menu .menuitem h3 {
+            font-size: 30px;
+            color: white;
+            text-transform: uppercase;
+
+        }
+
+        .menu .menuitem ul {
+            text-decoration: none;
+            list-style: none;
+
+        }
+
+        .menu .menuitem ul li {
+            color: white;
+            padding: 5px;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        .menu .menuitem i {
+            color: white;
+            padding: 10px;
+        }
+        img{
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="imggallery">
+        <div class="main">
+            <div class="img1">
+                <img src="https://img.freepik.com/premium-photo/ocean-waves-man-standing-ocean-wave_845712-329.jpg"
+                    alt="" >
+            </div>
+            <div class="img2">
+                <img src="https://i.pinimg.com/736x/ed/78/11/ed78116c19573356cd2519cf1f4e73d7.jpg" alt="" >
+            </div>
+            <div class="img3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKeuBzE-nRKeJfJv_tfPhn1T3nwCx2czgXAuPt3oYj-Q&s"
+                    alt="" >
+            </div>
+            <div class="img4">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/009/273/280/small_2x/concept-of-loneliness-and-disappointment-in-love-sad-man-sitting-element-of-the-picture-is-decorated-by-nasa-free-photo.jpg"
+                    alt="" >
+            </div>
+            <div class="img5">
+                <img src="https://i.pinimg.com/236x/37/9d/61/379d619a1ed85cc3197cab216f3196da.jpg" alt="" >
+            </div>
+            <div class="img6">
+                <img src="https://www.befunky.com/images/prismic/82e0e255-17f9-41e0-85f1-210163b0ea34_hero-blur-image-3.jpg?auto=avif,webp&format=jpg&width=896"
+                    alt="" >
+            </div>
+            <div class="img7">
+                <img src="https://media.istockphoto.com/id/1347665170/photo/london-at-sunset.jpg?s=612x612&w=0&k=20&c=MdiIzSNKvP8Ct6fdgdV3J4FVcfsfzQjMb6swe2ybY6I="
+                    alt="" >
+            </div>
+            <div class="img8">
+                <img src="https://avatars.mds.yandex.net/i?id=3042e48e6070e46c0fc785a5a4dd10db-5235616-images-taas-consumers&n=27&h=480&w=480"
+                    alt="" >
+            </div>
+            <div class="img9">
+                <img src="https://st.depositphotos.com/1193964/3828/i/450/depositphotos_38287557-stock-photo-dark-colorful-fractal-flower-digital.jpg"
+                    alt="" >
+            </div>
+            <div class="img10">
+                <img src="https://us.123rf.com/450wm/virtosmedia/virtosmedia2303/virtosmedia230322207/200025625-futuristic-city-with-skyscrapers-at-sunset-3d-rendering.jpg?ver=6"
+                    alt="" >
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menuitem">
+                <h3>shutter</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>photos</li>
+                    <li>bio</li>
+                    <li>blog</li>
+                    <li>contact</li>
+                </ul>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+   
+    </div>
+
+</body>
+
+</html>
